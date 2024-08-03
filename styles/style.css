@@ -114,6 +114,7 @@ nav li a{
 /* main section styles */
 .collection-container{
     max-width: 1047px;
+    /* max-height: 1662px; */
     margin: 0 auto;
     text-align: center;
 }
@@ -128,6 +129,7 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:30px;
+    margin-bottom: 50px;
 }
 .collection-title{
     font-size: 1.75rem;
@@ -165,16 +167,19 @@ nav li a{
 }
 .see-more{
     border-style: none;
+    background: none;
     color: rgba(224, 44, 109, 0.87);
     font-size: 1rem;
     font-weight: 700;
-    margin-left: 940px;
-    margin-top: 50px; 
+    width: 99px;
 }
 a{
     text-decoration: none;
     color: #E02C6D;
     
+}
+.card-image{
+    width: 100%;
 }
 
 .featured-title{
@@ -190,7 +195,7 @@ a{
     color: #6C6C6C;
     max-width: 501px;
     padding-bottom: 16px;
-    margin: 0;
+    margin: 0 auto;
 }
 .featured-btn{
     background-color: #E02C6D;
@@ -256,7 +261,7 @@ footer{
 
 /* mobile device responsive query */
 @media screen and (max-width: 576px) {
-    .nav-title{
+    /* .nav-title{
         font-size: 1rem;
     }
     nav{
@@ -291,6 +296,12 @@ footer{
         gap: 30px;
         margin: 0 auto;
     }
+
+    .product-collection{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15px;
+        margin-left: 15px;
+    }
     .featured{
         flex-direction: column-reverse;
     }
@@ -298,31 +309,36 @@ footer{
         font-size: 1.5rem;
         color: #0A0826;
         padding-bottom: 14px;
-        /* width: 311px; */
         margin-left: 24px;
         margin-right: 25px;
+        text-align: center;
     }
     .featured-title-description{
         width: 329px;
-        margin-left: 15px;
-        margin-right: 16px;
+        margin-bottom: 34px;
     }
-
+    .featured-image{
+        width: 80%;
+        margin: 34px 30px 50px 30px;
+    }
     .featured-container{
         text-align: center;
+    } */
+    footer{
+        margin-top: 50px;
     }
     .footer{
-        margin: 50px 65px;
+        padding: 50px 68px;
     }
     .footer-title{
         font-size: 1rem;
     }
-    .Copyright, .rights{
+    /* .Copyright, .rights{
         font-size: 0.75rem;
     }
     .footer-icon{
         width: 16px;
-    }
+    } */
 }
 /*  */
 
