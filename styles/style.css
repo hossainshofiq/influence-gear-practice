@@ -235,7 +235,6 @@ footer{
     font-size: 0.88rem;
     font-weight: 700;
     color: #D9DBE1;
-    
     padding-bottom: 3px;
     margin: 0;
 }
@@ -243,16 +242,14 @@ footer{
     font-size: 0.88rem;
     font-weight: 700;
     color: #D9DBE1;
+    padding-bottom: 17px;
     margin: 0;
 }
 .footer{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 .footer-icon{
-    padding-top: 17px;
-    padding-right: 16px;
     width: 32px;
 }
 .hide{
@@ -333,12 +330,17 @@ footer{
     .footer-title{
         font-size: 1rem;
     }
-    /* .Copyright, .rights{
+    .Copyright{
         font-size: 0.75rem;
+        padding-bottom: 5px;
+    }
+    .rights{
+        font-size: 0.75rem;
+        padding-bottom: 10px;
     }
     .footer-icon{
         width: 16px;
-    } */
+    }
 }
 /*  */
 
